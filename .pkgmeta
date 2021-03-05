@@ -1,0 +1,10 @@
+package-as: TwitchEmotes_Solaris
+
+enable-nolib-creation: no
+
+move-folders: 
+
+ignore: 
+    - .gitignore
+    - README.md
+    - LICENSE
