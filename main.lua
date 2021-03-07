@@ -70,7 +70,7 @@ local solarisPack = {
     ["ayayaKMSW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\ayayaKMSW.tga:LARGE",
     ["AYAYAW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\AYAYAW.tga:LARGE",
     ["FeelsIonManW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\FeelsIonManW.tga:LARGE",
-    
+
     -- Wide Emotes
     ["WideAYAYA"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\wide\\WideAYAYA.tga:28:128",
     ["WideDistortedWeird"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\wide\\WideDistortedWeird.tga:28:128",
