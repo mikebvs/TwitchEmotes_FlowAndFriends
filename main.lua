@@ -76,5 +76,8 @@ local solarisPack = {
     ["WideDistortedWeird"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\wide\\WideDistortedWeird.tga:28:128",
 }
 
+local function addEmotePacks()
+    Emoticons_RegisterPack("TwitchEmotes_Solaris", solarisEmoticons, solarisPack)
+end
 
-Emoticons_RegisterPack("TwitchEmotes_Solaris", solarisEmoticons, solarisPack);
+addEmotePacks()
