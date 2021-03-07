@@ -1,0 +1,28 @@
+name: PR
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 500
+      
+      - name: Install and run Luacheck
+        uses: nebularg/actions-luacheck@v1
+        with:
+          args: "--no-color -q"
+          annotate: warning
+
+      - name: Create Retail Package
+        uses: BigWigsMods/packager@master
+        with:
+          args: -d -z
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: TwitchEmotes_Solaris-PR${{ github.event.number }}
+          path: .release/
