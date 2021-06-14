@@ -1,14 +1,15 @@
-# [0.1.2](https://github.com/Pewtro/TwitchEmotes_Solaris/tree/0.1.2) (2021-06-14)
+# [0.1.3](https://github.com/Pewtro/TwitchEmotes_Solaris/tree/0.1.3) (2021-06-14)
 
-[Full Changelog](https://github.com/Pewtro/TwitchEmotes_Solaris/compare/0.1.1...0.1.2)
+[Full Changelog](https://github.com/Pewtro/TwitchEmotes_Solaris/compare/0.1.2...0.1.3)
 
 ## Highlights
 
- Add BlushPJ 
+ Added DASSARA, peepoRecline, peepoWhat and sheepoHug 
 
 ## Commits
 
-Putro (1):
+Putro (2):
 
-- [Emotes] Add BlushPJ
+- [Emotes] Add DASSARA, peepoRecline, peepoWhat and sheepoHug
+- [Release] 0.1.2
 
