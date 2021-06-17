@@ -2,9 +2,11 @@
 local solarisEmoticons = {
     ["ayayaKMS"] = "ayayaKMS",
     ["AzorCool"] = "AzorCool",
+    ["Bedge"] = "Bedge",
     ["blusherBucket"] = "blusherBucket",
 	["BlushPJ"] = "BlushPJ",
     ["catDisgust"] = "catDisgust",
+    ["cozyFriends"] = "cozyFriends",
     ["DASSARA"] = "DASSARA",
     ["DistortedWeird"] = "DistortedWeird",
     ["FeelsIonMan"] = "FeelsIonMan",
@@ -28,10 +30,12 @@ local solarisEmoticons = {
     ["PolarBear"] = "PolarBear",
     ["prayge"] = "prayge",
     ["sheepoHug"] = "sheepoHug",
+    ["sheepoHugBerry"] = "sheepoHugBerry",
     ["smoge"] = "smoge",
     ["susge"] = "susge",
     ["thinkiong"] = "thinkiong",
     ["THYMINDE"] = "THYMINDE",
+    ["typingHappy"] = "typingHappy",
 
     -- Large Emotes
     ["ayayaKMSW"] = "ayayaKMSW",
@@ -47,9 +51,11 @@ local solarisEmoticons = {
 local solarisPack = {
     ["ayayaKMS"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\ayayaKMS.tga:28:28",
     ["AzorCool"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\AzorCool.tga:28:28",
+    ["Bedge"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\Bedge.tga:28:28",
     ["blusherBucket"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\blusherBucket.tga:28:28",
 	["BlushPJ"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\BlushPJ.tga:28:28",
     ["catDisgust"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\catDisgust.tga:28:28",
+    ["cozyFriends"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\cozyFriends.tga:28:28",
     ["DASSARA"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\DASSARA.tga:28:28",
     ["DistortedWeird"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\DistortedWeird.tga:28:28",
     ["FeelsIonMan"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\FeelsIonMan.tga:28:28",
@@ -73,10 +79,12 @@ local solarisPack = {
     ["PolarBear"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\PolarBear.tga:28:28",
     ["prayge"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\prayge.tga:28:28",
     ["sheepoHug"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\sheepoHug.tga:28:28",
+    ["sheepoHugBerry"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\sheepoHugBerry.tga:28:28",
     ["smoge"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\smoge.tga:28:28",
     ["susge"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\susge.tga:28:28",
     ["thinkiong"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\thinkiong.tga:28:28",
     ["THYMINDE"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\THYMINDE.tga:28:28",
+    ["typingHappy"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\typingHappy.tga:28:28",
 
     -- Large Emotes
     ["ayayaKMSW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\ayayaKMSW.tga:LARGE",
