@@ -36,6 +36,7 @@ local solarisEmoticons = {
     ["thinkiong"] = "thinkiong",
     ["THYMINDE"] = "THYMINDE",
     ["typingHappy"] = "typingHappy",
+    ["WannaFight"] = "WannaFight",
 
     -- Large Emotes
     ["ayayaKMSW"] = "ayayaKMSW",
@@ -85,6 +86,7 @@ local solarisPack = {
     ["thinkiong"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\thinkiong.tga:28:28",
     ["THYMINDE"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\THYMINDE.tga:28:28",
     ["typingHappy"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\typingHappy.tga:28:28",
+    ["WannaFight"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\WannaFight.tga:28:28",
 
     -- Large Emotes
     ["ayayaKMSW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\ayayaKMSW.tga:LARGE",
