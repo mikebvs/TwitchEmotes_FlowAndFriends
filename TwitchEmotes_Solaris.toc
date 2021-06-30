@@ -1,7 +1,7 @@
-## Interface: 90010
+## Interface: 90100
 ## Title: TwitchEmotes_Solaris
 ## Author: Putro
-## Version: 0.3.0
+## Version: 0.3.1
 ## X-Curse-Project-ID: 453608
 
 main.lua
