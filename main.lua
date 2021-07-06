@@ -7,7 +7,6 @@ local solarisEmoticons = {
 	["BlushPJ"] = "BlushPJ",
     ["catDisgust"] = "catDisgust",
     ["comfyBlushSip"] = "comfyBlushSip",
-    ["FUCKKINTARK"] = "comfyBlushSip",
     ["Copium"] = "Copium",
     ["cozyFriends"] = "cozyFriends",
     ["DASSARA"] = "DASSARA",
@@ -16,10 +15,12 @@ local solarisEmoticons = {
     ["FeelsIonMan"] = "FeelsIonMan",
     ["happyAwesome"] = "happyAwesome",
     ["HappyPeepoFarmer"] = "HappyPeepoFarmer",
+    ["LETSGO"] = "LETSGO",
     ["MAAAN"] = "MAAAN",
     ["monkaYikes"] = "monkaYikes",
     ["MONKS"] = "MONKS",
     ["NootLikeThis"] = "NootLikeThis",
+    ["nyoo"] = "nyoo",
     ["peepoBabyShark"] = "peepoBabyShark",
     ["peepoBear"] = "peepoBear",
     ["peepoFlower"] = "peepoFlower",
@@ -62,6 +63,14 @@ local solarisEmoticons = {
     -- Wide Emotes
     ["WideAYAYA"] = "WideAYAYA",
     ["WideDistortedWeird"] = "WideDistortedWeird",
+
+    -- Alternatives
+    ["FUCKKINTARK"] = "comfyBlushSip",
+    ["letsgo"] = "LETSGO",
+    ["maan"] = "MAAAN",
+    ["maaan"] = "MAAAN",
+    ["MAAN"] = "MAAAN",
+    ["NYOO"] = "nyoo",
 }
 
 
@@ -81,10 +90,12 @@ local solarisPack = {
     ["FeelsIonMan"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\FeelsIonMan.tga:28:28",
     ["happyAwesome"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\happyAwesome.tga:28:28",
     ["HappyPeepoFarmer"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\HappyPeepoFarmer.tga:28:28",
+    ["LETSGO"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\LETSGO.tga:28:28",
     ["MAAAN"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\MAAAN.tga:28:28",
     ["monkaYikes"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\monkaYikes.tga:28:28",
     ["MONKS"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\MONKS.tga:28:28",
     ["NootLikeThis"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\NootLikeThis.tga:28:28",
+    ["nyoo"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\nyoo.tga:28:28",
     ["peepoBabyShark"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoBabyShark.tga:28:28",
     ["peepoBear"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoBear.tga:28:28",
     ["peepoFlower"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoFlower.tga:28:28",
