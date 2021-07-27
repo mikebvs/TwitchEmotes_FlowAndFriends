@@ -6,6 +6,7 @@ local solarisEmoticons = {
     ["blusherBucket"] = "blusherBucket",
 	["BlushPJ"] = "BlushPJ",
     ["catDisgust"] = "catDisgust",
+    [":clueless:"] = "CLUELESS",
     ["comfyBlushSip"] = "comfyBlushSip",
     ["Copium"] = "Copium",
     ["cozyFriends"] = "cozyFriends",
@@ -23,6 +24,7 @@ local solarisEmoticons = {
     ["nyoo"] = "nyoo",
     ["peepoBabyShark"] = "peepoBabyShark",
     ["peepoBear"] = "peepoBear",
+    ["peepoDrool"] = "peepoDrool",
     ["peepoFlower"] = "peepoFlower",
     ["peepoHappyFrog"] = "peepoHappyFrog",
     ["peepoHappyNuggie"] = "peepoHappyNuggie",
@@ -54,6 +56,7 @@ local solarisEmoticons = {
     ["typingHappy"] = "typingHappy",
     ["WannaFight"] = "WannaFight",
     ["Wokege"] = "Wokege",
+    ["YEPSOCK"] = "YEPSOCK",
 
     -- Large Emotes
     ["ayayaKMSW"] = "ayayaKMSW",
@@ -81,6 +84,7 @@ local solarisPack = {
     ["blusherBucket"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\blusherBucket.tga:28:28",
 	["BlushPJ"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\BlushPJ.tga:28:28",
     ["catDisgust"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\catDisgust.tga:28:28",
+    ["CLUELESS"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\CLUELESS.tga:28:28",
     ["comfyBlushSip"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\comfyBlushSip.tga:28:28",
     ["Copium"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\Copium.tga:28:28",
     ["cozyFriends"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\cozyFriends.tga:28:28",
@@ -98,6 +102,7 @@ local solarisPack = {
     ["nyoo"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\nyoo.tga:28:28",
     ["peepoBabyShark"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoBabyShark.tga:28:28",
     ["peepoBear"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoBear.tga:28:28",
+    ["peepoDrool"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoDrool.tga:28:28",
     ["peepoFlower"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoFlower.tga:28:28",
     ["peepoHappyFrog"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoHappyFrog.tga:28:28",
     ["peepoHappyNuggie"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\peepoHappyNuggie.tga:28:28",
@@ -129,6 +134,7 @@ local solarisPack = {
     ["typingHappy"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\typingHappy.tga:28:28",
     ["WannaFight"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\WannaFight.tga:28:28",
     ["Wokege"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\Wokege.tga:28:28",
+    ["YEPSOCK"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\YEPSOCK.tga:28:28",
 
     -- Large Emotes
     ["ayayaKMSW"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\large\\ayayaKMSW.tga:LARGE",
