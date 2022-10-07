@@ -81,7 +81,7 @@ function TwitchEmotes_Solaris:SlashCommand(msg)
     end
 end
 
-function TwitchEmotes_Solaris:RegisterDatabase() 
+function TwitchEmotes_Solaris:RegisterDatabase()
     self.db = LibStub("AceDB-3.0"):New("TwitchEmotes_Solaris_Settings", default_db, true)
 end
 
