@@ -44,4 +44,5 @@ globals = {
 
     --Blizz
     "NUM_CHAT_WINDOWS",
+    "InterfaceOptionsFrame_OpenToCategory"
 }

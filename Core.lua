@@ -9,6 +9,8 @@ local ACD = LibStub("AceConfigDialog-3.0")
 local LDB = LibStub("LibDataBroker-1.1")
 local LDBIcon = LibStub("LibDBIcon-1.0")
 
+local _ = nil
+
 local default_db = {
     profile = {
         minimap = {
@@ -56,7 +58,7 @@ function TwitchEmotes_Solaris:OnInitialize()
 
     LDBIcon:Register("TwitchEmotes_Solaris", TES_LDB, self.db.profile.minimap)
 
-    --Register UI Options 
+    --Register UI Options
     TwitchEmotes_Solaris:RegisterOptions()
 
     --Load Features
@@ -68,8 +70,8 @@ function TwitchEmotes_Solaris:OnInitialize()
 	TwitchEmotes_Solaris:RegisterChatCommand("twitchemotessolaris", "SlashCommand")
 end
 
-function TwitchEmotes_Solaris:SlashCommand(msg) 
-    if not msg or msg:trim() == "" then 
+function TwitchEmotes_Solaris:SlashCommand(msg)
+    if not msg or msg:trim() == "" then
         InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
         InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
     end
@@ -78,7 +80,6 @@ function TwitchEmotes_Solaris:SlashCommand(msg)
         TwitchEmotes_Solaris:ToggleMinimapButton(_, self.db.profile.minimap.hide)
     end
 end
-
 
 function TwitchEmotes_Solaris:RegisterDatabase() 
     self.db = LibStub("AceDB-3.0"):New("TwitchEmotes_Solaris_Settings", default_db, true)
