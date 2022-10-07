@@ -24,8 +24,8 @@ globals = {
     --Emotes
     "TwitchEmotes_Solaris_Emoticons",
     "TwitchEmotes_Solaris_Emoticons_Pack",
-    --Others
-    "TwitchEmotes_Solaris_Settings",
+    --Addon
+    "TwitchEmotes_Solaris",
     "TwitchEmotes_Solaris_RenderSuggestion",
 
     -- OTHERS -- 

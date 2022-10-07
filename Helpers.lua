@@ -1,5 +1,3 @@
-local _, TwitchEmotes_Solaris = ...
-
 local autocompleteInited = false
 
 local function tablelength(T)
@@ -26,10 +24,10 @@ function TwitchEmotes_Solaris_RenderSuggestion(text)
     end
 end
 
-function TwitchEmotes_Solaris:SetAutoComplete(state)
-    TwitchEmotes_Solaris_Settings["FEAT_AUTOCOMPLETE"] = state
+function TwitchEmotes_Solaris:SetAutoComplete(value)
+    self.db.profile.features.autocomplete.enabled = value
 
-    if TwitchEmotes_Solaris_Settings["FEAT_AUTOCOMPLETE"] and not autocompleteInited then
+    if value and not autocompleteInited then
         local i = tablelength(AllTwitchEmoteNames);
         for k, _ in pairs(TwitchEmotes_Solaris_Emoticons_Pack) do
             AllTwitchEmoteNames[i] = k;
@@ -65,7 +63,7 @@ function TwitchEmotes_Solaris:SetAutoComplete(state)
                 end,
                 interceptOnEnterPressed = true,
                 addSpace = true,
-                useTabToConfirm = TwitchEmotes_Solaris_Settings["FEAT_AUTOCOPLETE_WITH_TAB"],
+                useTabToConfirm = self.db.profile.features.autocomplete.with_tab,
                 useArrowButtons = true,
             }
 
