@@ -91,7 +91,7 @@ TwitchEmotes_Solaris_Emoticons = {
     ["NYOO"] = "nyoo",
 }
 
-
+-- File Locations
 TwitchEmotes_Solaris_Emoticons_Pack = {
     ["airbud"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\airbud28.tga:28:28",
     ["ayayaKMS"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\ayayaKMS.tga:28:28",
