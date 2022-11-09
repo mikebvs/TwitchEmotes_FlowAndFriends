@@ -1,4 +1,5 @@
 TwitchEmotes_Solaris_Emoticons = {
+    ["airbud"] = "airbud"
     ["ayayaKMS"] = "ayayaKMS",
     ["AzorCool"] = "AzorCool",
     ["Bedge"] = "Bedge",
@@ -92,6 +93,7 @@ TwitchEmotes_Solaris_Emoticons = {
 
 
 TwitchEmotes_Solaris_Emoticons_Pack = {
+    ["airbud"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\airbud28.tga:28:28",
     ["ayayaKMS"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\ayayaKMS.tga:28:28",
     ["AzorCool"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\AzorCool.tga:28:28",
     ["Bedge"] = "Interface\\AddOns\\TwitchEmotes_Solaris\\emotes\\Bedge.tga:28:28",
