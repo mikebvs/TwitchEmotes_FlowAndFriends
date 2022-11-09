@@ -1,6 +1,6 @@
 
 ---@diagnostic disable: deprecated
-TwitchEmotes_Solaris = LibStub("AceAddon-3.0"):NewAddon("TwitchEmotes_Solaris", "AceConsole-3.0", "AceEvent-3.0")
+TwitchEmotes_Flow&Friends = LibStub("AceAddon-3.0"):NewAddon("TwitchEmotes_Flow&Friends", "AceConsole-3.0", "AceEvent-3.0")
 local AddonName = ...
 
 local AC = LibStub("AceConfig-3.0")
@@ -29,20 +29,20 @@ local default_db = {
 local minimapHeadingColor = "|cFFFFFFFF"
 local minimapIconRegistered = false
 
-local TES_LDB = LDB:NewDataObject("TwitchEmotes_Solaris", {
+local TES_LDB = LDB:NewDataObject("TwitchEmotes_Flow&Friends", {
     type = "data source",
-    text = "Twitch Emotes Solaris",
-    icon = "Interface\\AddOns\\TwitchEmotes_Solaris\\logo",
+    text = "Twitch Emotes Flow&Friends",
+    icon = "Interface\\AddOns\\TwitchEmotes_Flow&Friends\\logo",
     OnClick = function(_, buttonPressed)
         if buttonPressed == "RightButton" then
-            TwitchEmotes_Solaris:ToggleMinimapLock()
+            TwitchEmotes_Flow&Friends:ToggleMinimapLock()
         end
     end,
     OnTooltipShow = function(tooltip)
         if not tooltip or not tooltip.AddLine then
             return
         end
-        tooltip:AddLine(minimapHeadingColor .. "Twitch Emotes Solaris|r")
+        tooltip:AddLine(minimapHeadingColor .. "Twitch Emotes Flow&Friends|r")
         --tooltip:AddLine("Click to toggle AddOn Window")
         tooltip:AddLine(" ")
         tooltip:AddLine("Right-click to lock Minimap Button")
@@ -52,44 +52,44 @@ local TES_LDB = LDB:NewDataObject("TwitchEmotes_Solaris", {
 })
 
 --Init
-function TwitchEmotes_Solaris:OnInitialize()
+function TwitchEmotes_Flow&Friends:OnInitialize()
     --Register DB
-    TwitchEmotes_Solaris:RegisterDatabase()
+    TwitchEmotes_Flow&Friends:RegisterDatabase()
 
-    LDBIcon:Register("TwitchEmotes_Solaris", TES_LDB, self.db.profile.minimap)
+    LDBIcon:Register("TwitchEmotes_Flow&Friends", TES_LDB, self.db.profile.minimap)
 
     --Register UI Options
-    TwitchEmotes_Solaris:RegisterOptions()
+    TwitchEmotes_Flow&Friends:RegisterOptions()
 
     --Load Features
-    TwitchEmotes_Solaris:ToggleMinimapButton()
-    TwitchEmotes_Solaris:SetAutoComplete(self.db.profile.features.autocomplete.enabled)
+    TwitchEmotes_Flow&Friends:ToggleMinimapButton()
+    TwitchEmotes_Flow&Friends:SetAutoComplete(self.db.profile.features.autocomplete.enabled)
 
     --Register chat commands
-    TwitchEmotes_Solaris:RegisterChatCommand("tes", "SlashCommand")
-	TwitchEmotes_Solaris:RegisterChatCommand("twitchemotessolaris", "SlashCommand")
+    TwitchEmotes_Flow&Friends:RegisterChatCommand("tes", "SlashCommand")
+	TwitchEmotes_Flow&Friends:RegisterChatCommand("twitchemotesFlow&Friends", "SlashCommand")
 end
 
-function TwitchEmotes_Solaris:SlashCommand(msg)
+function TwitchEmotes_Flow&Friends:SlashCommand(msg)
     if not msg or msg:trim() == "" then
         InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
         InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
     end
 
     if msg == "minimap" then
-        TwitchEmotes_Solaris:ToggleMinimapButton(_, self.db.profile.minimap.hide)
+        TwitchEmotes_Flow&Friends:ToggleMinimapButton(_, self.db.profile.minimap.hide)
     end
 end
 
-function TwitchEmotes_Solaris:RegisterDatabase()
-    self.db = LibStub("AceDB-3.0"):New("TwitchEmotes_Solaris_Settings", default_db, true)
+function TwitchEmotes_Flow&Friends:RegisterDatabase()
+    self.db = LibStub("AceDB-3.0"):New("TwitchEmotes_Flow&Friends_Settings", default_db, true)
 end
 
 
-function TwitchEmotes_Solaris:RegisterOptions()
+function TwitchEmotes_Flow&Friends:RegisterOptions()
     local options = {
-        name = "Twitch Emotes Solaris",
-        handler = TwitchEmotes_Solaris,
+        name = "Twitch Emotes Flow&Friends",
+        handler = TwitchEmotes_Flow&Friends,
         type = "group",
         args = {
             enable = {
@@ -113,35 +113,35 @@ function TwitchEmotes_Solaris:RegisterOptions()
         }
     }
 
-    AC:RegisterOptionsTable("TwitchEmotes_Solaris_options", options)
-    self.optionsFrame = ACD:AddToBlizOptions("TwitchEmotes_Solaris_options", "TwitchEmotes_Solaris")
+    AC:RegisterOptionsTable("TwitchEmotes_Flow&Friends_options", options)
+    self.optionsFrame = ACD:AddToBlizOptions("TwitchEmotes_Flow&Friends_options", "TwitchEmotes_Flow&Friends")
 end
 
-function TwitchEmotes_Solaris:IsMinimapButtonShown(info)
+function TwitchEmotes_Flow&Friends:IsMinimapButtonShown(info)
     return not self.db.profile.minimap.hide
 end
 
-function TwitchEmotes_Solaris:ToggleMinimapButton(_,toggle)
+function TwitchEmotes_Flow&Friends:ToggleMinimapButton(_,toggle)
     if (toggle ~= nil) then
         self.db.profile.minimap.hide = not toggle
     end
 
     if(self.db.profile.minimap.hide) then
-        LDBIcon:Hide("TwitchEmotes_Solaris")
+        LDBIcon:Hide("TwitchEmotes_Flow&Friends")
     else
-        LDBIcon:Show("TwitchEmotes_Solaris")
+        LDBIcon:Show("TwitchEmotes_Flow&Friends")
     end
 end
 
-function TwitchEmotes_Solaris:IsMinimapLocked(info)
+function TwitchEmotes_Flow&Friends:IsMinimapLocked(info)
     return self.db.profile.minimap.lock
 end
 
-function TwitchEmotes_Solaris:ToggleMinimapLock(info)
+function TwitchEmotes_Flow&Friends:ToggleMinimapLock(info)
     if(self.db.profile.minimap.lock) then
-        LDBIcon:Unlock("TwitchEmotes_Solaris")
+        LDBIcon:Unlock("TwitchEmotes_Flow&Friends")
     else
-        LDBIcon:Lock("TwitchEmotes_Solaris")
+        LDBIcon:Lock("TwitchEmotes_Flow&Friends")
     end
 
 end

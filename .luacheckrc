@@ -22,20 +22,20 @@ ignore = {
 globals = {
     -- OWN --
     --Emotes
-    "TwitchEmotes_Solaris_Emoticons",
-    "TwitchEmotes_Solaris_Emoticons_Pack",
+    "TwitchEmotes_Flow&Friends_Emoticons",
+    "TwitchEmotes_Flow&Friends_Emoticons_Pack",
     --Addon
-    "TwitchEmotes_Solaris",
-    "TwitchEmotes_Solaris_RenderSuggestion",
+    "TwitchEmotes_Flow&Friends",
+    "TwitchEmotes_Flow&Friends_RenderSuggestion",
 
-    -- OTHERS -- 
+    -- OTHERS --
 
     --Twitch Emotes v2
     "Emoticons_RegisterPack",
     "AllTwitchEmoteNames",
     "TwitchEmotes_defaultpack",
 
-    --Misc / Libs 
+    --Misc / Libs
     "LibStub",
     "SetupAutoComplete",
 

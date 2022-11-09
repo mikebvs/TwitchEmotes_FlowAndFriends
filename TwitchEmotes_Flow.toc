@@ -1,0 +1,12 @@
+## Interface: 100000
+## Title: TwitchEmotes_Flow&Friends
+## Author: flowmotion_x
+## Version: 1.1.0
+## SavedVariables: TwitchEmotes_Flow&Friends_Settings
+## X-Curse-Project-ID: 700024
+## OptionalDeps: Ace3
+
+Emotes.lua
+Core.lua
+Init_Emotes.lua
+Helpers.lua

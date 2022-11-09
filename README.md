@@ -1,1 +1,1 @@
-# TwitchEmotes_Solaris
+# TwitchEmotes_Flow&Friends
