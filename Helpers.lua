@@ -7,8 +7,8 @@ local function tablelength(T)
   end
 
   --this function transforms the text in the autocomplete suggestions (we add the emote image here)
-function TwitchEmotes_Solaris_RenderSuggestion(text)
-    local fullEmotePath = TwitchEmotes_Solaris_Emoticons_Pack[text];
+function TwitchEmotes_Flow&Friends_RenderSuggestion(text)
+    local fullEmotePath = TwitchEmotes_Flow&Friends_Emoticons_Pack[text];
     if (not fullEmotePath) then
        fullEmotePath = TwitchEmotes_defaultpack[text]
     end
@@ -24,12 +24,12 @@ function TwitchEmotes_Solaris_RenderSuggestion(text)
     end
 end
 
-function TwitchEmotes_Solaris:SetAutoComplete(value)
+function TwitchEmotes_Flow&Friends:SetAutoComplete(value)
     self.db.profile.features.autocomplete.enabled = value
 
     if value and not autocompleteInited then
         local i = tablelength(AllTwitchEmoteNames);
-        for k, _ in pairs(TwitchEmotes_Solaris_Emoticons_Pack) do
+        for k, _ in pairs(TwitchEmotes_Flow&Friends_Emoticons_Pack) do
             AllTwitchEmoteNames[i] = k;
             i = i + 1;
         end
@@ -53,7 +53,7 @@ function TwitchEmotes_Solaris:SetAutoComplete(value)
                 onSuggestionApplied = function(suggestion)
                     --UpdateEmoteStats(suggestion, true, false, false);
                 end,
-                renderSuggestionFN = TwitchEmotes_Solaris_RenderSuggestion,
+                renderSuggestionFN = TwitchEmotes_Flow&Friends_RenderSuggestion,
                 suggestionBiasFN = function(suggestion, text)
                     ----Bias the sorting function towards the most autocompleted emotes
                     --if TwitchEmoteStatistics[suggestion] ~= nil then
@@ -68,12 +68,10 @@ function TwitchEmotes_Solaris:SetAutoComplete(value)
             }
 
             SetupAutoComplete(editbox, suggestionList, maxButtonCount, autocompletesettings);
-            
+
         end
-    
+
         autocompleteInited = true;
     end
 
 end
-
-
